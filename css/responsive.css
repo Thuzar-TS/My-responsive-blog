@@ -1,0 +1,78 @@
+div.mobile-collapse{
+	width:46%;
+}
+
+#last{
+	clear:both;
+	float:none;
+	width: auto;
+	margin-right: 2%;
+}
+span{
+	display: none;
+}
+nav img{
+	display: none;
+}
+nav ul li{
+	width:33%;
+	border-bottom: 1px solid #bababa; 
+	border-right: 1px solid #bababa;
+}
+.nav{
+		width:97%;
+		margin-bottom: 5px;
+	}
+div.hide-mobile{
+		width:94%;
+		margin-right: 2%;
+	}
+	#left{
+		width:52%;
+		margin-right: 2%;
+	}
+	.right{
+		width:42%;
+	}
+@media screen and (max-width: 500px){
+
+	div.mobile-collapse{
+		width:auto;
+		margin-right: 2%;
+		float:none;
+	}
+	div.hide-mobile{
+		width:94%;
+		margin-right: 2%;
+	}
+	#left{
+		width:94%;
+		margin-right: 2%;
+	}
+	.right{
+		width:100%;
+	}
+	.nav{
+		width:94%;
+		margin-bottom: 5px;
+	}
+	nav ul{
+		display: none;
+		border-top:1px solid black; 
+	}
+	nav ul li{	
+		width:98%;
+		border-right:0px;
+	}
+	span{
+		display: block;
+		margin-top: 5px;
+		width:90%;
+		float:left;
+		text-align: left;
+		font-weight: bold;
+	}
+	nav img{
+		display: block;
+	}
+}
